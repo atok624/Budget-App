@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-// @import "@fortawesome/fontawesome-sprockets";
-// @import "@fortawesome/fontawesome-free";
-
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 p,
@@ -16,7 +12,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 :root {
@@ -132,14 +128,14 @@ button:hover {
 
 .container-form {
   background-color: white;
-  padding: 2em 2em;
+  padding: 2em;
   border-radius: 8px;
   height: 15em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 6px 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 4px 15px rgb(0 0 0 / 20%);
 }
 
 .container-form .actions input[type="submit"] {
@@ -233,7 +229,7 @@ button:hover {
   color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 1em;
+  padding: 1em;
   background-color: var(--primary-color);
 }
 
@@ -268,7 +264,7 @@ button:hover {
   left: 0;
   width: 100%;
   background-color: var(--secondary-color);
-  padding: 1em 1em;
+  padding: 1em;
 }
 
 .add-category-link:hover {
@@ -318,7 +314,7 @@ button:hover {
   width: 90%;
   border: 1px solid var(--text-color);
   margin-inline: auto;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
 }
 
 .category-icon {
@@ -345,5 +341,5 @@ button:hover {
   width: 90%;
   border: 1px solid var(--text-color);
   margin-inline: auto;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
 }
