@@ -17,9 +17,6 @@ class CategoriesController < ApplicationController
     @category = current_user.categories.new
   end
 
-  # GET /categories/1/edit
-  def edit; end
-
   # POST /categories or /categories.json
   def create
     @category = Category.new(category_params)
@@ -35,6 +32,9 @@ class CategoriesController < ApplicationController
       end
     end
   end
+
+  # GET /categories/1/edit
+  def edit; end
 
   # PATCH/PUT /categories/1 or /categories/1.json
   def update
@@ -63,7 +63,7 @@ class CategoriesController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_category
-    @category = Category.find(params[:id])
+    @category = current_user.categories.find(params[:id])
   end
 
   # Only allow a list of trusted parameters through.
