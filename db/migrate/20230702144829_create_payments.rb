@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # db/migrate/20230704090000_create_payments.rb
 class CreatePayments < ActiveRecord::Migration[7.0]
   def change
