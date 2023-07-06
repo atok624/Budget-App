@@ -30,6 +30,9 @@ gem "jbuilder"
 # Add devise to project
 gem 'devise'
 
+gem 'rspec-rails'
+
+
 #Add font awesome to the project
 gem 'font-awesome-sass'
 
