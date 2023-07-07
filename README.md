@@ -40,7 +40,7 @@ Budget App: Web app for personal finance management. Set budgets, track spending
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [Budget-App](https://smartsaver.onrender.com)
+- [Budget-App](https://budget-app-uh11.onrender.com/)
 
 ### 📽️ Video Presentation <a name="video"></a>
 
