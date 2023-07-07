@@ -19,8 +19,8 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-## 📖 SmartSaver<a name="about-project"></a>
-Budget Mate: Web app for personal finance management. Set budgets, track spending in categories like groceries, transportation, and entertainment. Make informed financial decisions for a balanced budget. 💰💼
+## 📖 Budget-App<a name="about-project"></a>
+Budget App: Web app for personal finance management. Set budgets, track spending in categories like groceries, transportation, and entertainment. Make informed financial decisions for a balanced budget.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,11 +40,11 @@ Budget Mate: Web app for personal finance management. Set budgets, track spendin
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [SmartSaver](https://smartsaver.onrender.com)
+- [Budget-App](https://smartsaver.onrender.com)
 
 ### 📽️ Video Presentation <a name="video"></a>
 
-[Video Link](https://www.loom.com/share/5d571397947b49f0a677c66a047801e0?sid=14c5b6cf-58cf-45bb-bf08-e4a63cb61bbb)
+[Video Link](https://www.loom.com/share/0e75582ec0094b0d859e1bb28d3240f4?sid=3026999a-bb45-4ce5-b6d7-b78f12f3bffa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
