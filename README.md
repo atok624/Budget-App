@@ -102,7 +102,7 @@ rails server
 
 ## Authors <a name="authors"></a>
 
-👤 **Progress**
+👤 **Nicholas Amissah**
 
 - GitHub: [Nicholas Amissah](https://github.com/atok624)
 - Twitter: [Nicholas Amissah](https://twitter.com/MysticalAmissah)
