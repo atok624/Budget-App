@@ -21,6 +21,10 @@ h4 {
   --text-color: #434b54;
 }
 
+body {
+  background-color: rgb(239, 239, 239);
+}
+
 .splash-container {
   background-color: white;
   color: #fff;
@@ -311,6 +315,7 @@ button:hover {
   align-items: center;
   margin-top: 20px;
   padding: 1em 2em;
+  background-color: #fff;
   width: 90%;
   border: 1px solid var(--text-color);
   margin-inline: auto;
@@ -338,8 +343,20 @@ button:hover {
   align-items: center;
   margin-top: 20px;
   padding: 1em 2em;
+  background-color: #fff;
   width: 90%;
   border: 1px solid var(--text-color);
   margin-inline: auto;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 9px;
+  height: 60px;
+  align-items: center;
+  font-size: 19px;
 }

@@ -10,6 +10,10 @@
 
 
 <div id="payments">
+  <div class="total">
+  <p>Total amount:</p>
+  <p>$<%= Category.total_amount(current_user.id) %></p>
+  </div>
 
 <% if @payments.empty? %>
       <p class="no-data">No transactions here yet.</p>
@@ -19,7 +23,6 @@
       <p class="payment-name"><%= payment.name %></p>
       <div class="flex">
         <p>Price: $ <%= payment.amount %> </p>
-        <%# <i class=" flex1 fa-solid fa-trash"></i> %>
       </div>
     </div>
   <% end %>

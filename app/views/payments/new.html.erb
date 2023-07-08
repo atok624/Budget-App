@@ -1,19 +1,19 @@
-
 <div class="category-header">
-     <a href="<%= categories_path %>">
-            <i class="fa-solid fa-arrow-left"></i>
-        </a>
-    <h2>New Transaction</h2>
-    <a href="/logout">
-        <i class="fa-solid fa-right-from-bracket"></i>
-    </a>
+  <a href="<%= categories_path %>">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
+  <h2>New Transaction</h2>
+  <a href="/logout">
+    <i class="fa-solid fa-right-from-bracket"></i>
+  </a>
 </div>
 
 <%= form_with(model: @payment, url: category_payments_path) do |form| %>
-   
-<div class="form-container">
-        <%= form.text_field :name, placeholder: "Name" %>
-        <%= form.text_field :amount, placeholder: "Amount" %>
-         <%= form.submit "Create", class: "submit-button" %>
-    </div>
+  <div class="form-container">
+    <%= form.text_field :name, placeholder: "Name" %>
+    <%= form.text_field :amount, placeholder: "Amount" %>
+    <%= form.collection_select :category_id, Category.all, :id, :name, { prompt: "Select a Category" },
+    style: "padding: 0.5em 2.5em; margin-bottom: 10px;" %>
+    <%= form.submit "Create", class: "submit-button" %>
+  </div>
 <% end %>
