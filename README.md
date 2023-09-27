@@ -20,7 +20,7 @@
   - [📝 License ](#-license-)
 
 ## 📖 Budget-App<a name="about-project"></a>
-Budget App: Web app for personal finance management. Set budgets, track spending in categories like groceries, transportation, and entertainment. Make informed financial decisions for a balanced budget.
+Budget App: Web app for personal finance management. Set budgets, and track spending in categories like groceries, transportation, and entertainment. Make informed financial decisions for a balanced budget.
 
 ## 🛠 Built With <a name="built-with"></a>
 
